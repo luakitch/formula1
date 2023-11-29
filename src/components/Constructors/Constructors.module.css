@@ -1,0 +1,129 @@
+@import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+* {
+  background-color: rgb(20, 20, 20);
+  font-family: 'Racing Sans One', sans-serif;
+
+}
+
+ol {
+  padding-inline-start: 0;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.title {
+  text-align: center;
+  color: var(--color-text);
+}
+
+.constructors {
+  list-style: none;
+}
+
+.constructor button {
+  text-transform: uppercase;
+  width: 25rem;
+}
+
+/* Constructors */
+.alfaRomeo {
+  border: solid var(--color-alfaRomeo);
+  transition: 0.5s;
+}
+
+.alfaRomeo:hover {
+  box-shadow: 0 5px 15px var(--color-alfaRomeo);
+}
+
+.alphaTauri {
+  border: solid var(--color-alphaTauri);
+  transition: 0.5s;
+}
+
+.alphaTauri:hover {
+  box-shadow: 0 5px 15px var(--color-alphaTauri);
+}
+
+.alpine {
+  border: solid var(--color-alpine);
+  transition: 0.5s;
+}
+
+.alpine:hover {
+  box-shadow: 0 5px 15px var(--color-alpine);
+}
+
+.astonMartin {
+  transition: 0.5s;
+  border: solid var(--color-astonMartin);
+}
+
+.astonMartin:hover {
+  box-shadow: 0 5px 15px var(--color-astonMartin);
+}
+
+.ferrari {
+  border: solid var(--color-ferrari);
+  transition: 0.5s;
+}
+
+.ferrari:hover {
+  box-shadow: 0 5px 15px var(--color-ferrari);
+}
+
+.haas {
+  border: solid var(--color-haas);
+  transition: 0.5s;
+}
+
+.haas:hover {
+  box-shadow: 0 5px 15px var(--color-haas);
+}
+
+.mclaren {
+  border: solid var(--color-mclaren);
+  transition: 0.5s;
+}
+
+.mclaren:hover {
+  box-shadow: 0 5px 15px var(--color-mclaren);
+}
+
+.mercedes {
+  border: solid var(--color-mercedes);
+  transition: 0.5s;
+}
+
+.mercedes:hover {
+  box-shadow: 0 5px 15px var(--color-mercedes);
+}
+
+.redBull {
+  border: solid var(--color-redBull);
+  transition: 0.5s;
+}
+
+.redBull:hover {
+  box-shadow: 0 5px 15px var(--color-redBull);
+}
+
+.williams {
+  border: solid var(--color-williams);
+  transition: 0.5s;
+}
+
+.williams:hover {
+  box-shadow: 0 5px 15px var(--color-williams);
+}

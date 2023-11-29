@@ -1,0 +1,11 @@
+@import "../../vars.css";
+
+.backBtn {
+    border-radius: 8px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.backBtn:hover {
+    background-color: rgb(47, 47, 47);
+}
